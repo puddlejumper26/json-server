@@ -1,5 +1,192 @@
 {
-  "name": "My Video",
-  "url": "https://www.youtube.com/watch?v=rxBfbd0Zt4g",
-  "id": 1
+  "users": [
+    {
+      "id": 1,
+      "username": "john",
+      "password": "abc123",
+      "token": "axStyusksdty79s8ajkoswwndopmsn"
+    },
+    {
+      "id": 2,
+      "username": "mike",
+      "password": "abc123",
+      "token": "swer17soiueddnhetejlaoosnnuoed"
+    }
+  ],
+  "video": [
+    {
+      "name": "My Video",
+      "url": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "id": 1
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "ticketId": "TS1452",
+      "subject": "Validation error on register page",
+      "description": "Join us for the upcoming webinar, Enterprise JavaScript done right: the tools you love, the security you need.",
+      "application": "Booking",
+      "status": "New",
+      "priority": "Major",
+      "assignee": "Brad Michel"
+    },
+    {
+      "id": 2,
+      "ticketId": "TS1247",
+      "subject": "Failed to create user",
+      "description": "Join us for the upcoming webinar, Enterprise JavaScript done right: the tools you love, the security you need.",
+      "application": "TMS",
+      "status": "Closed",
+      "priority": "Intermediate",
+      "assignee": "John Mike"
+    },
+    {
+      "id": 3,
+      "ticketId": "TS1248",
+      "subject": "Modal not closing",
+      "description": "Join us for the upcoming webinar, Enterprise JavaScript done right: the tools you love, the security you need.",
+      "application": "Booking",
+      "status": "In Progress",
+      "priority": "Minor",
+      "assignee": "Brad Polloc"
+    },
+    {
+      "id": 4,
+      "ticketId": "TS1249",
+      "subject": "Video not loading",
+      "description": "Join us for the upcoming webinar, Enterprise JavaScript done right: the tools you love, the security you need.",
+      "application": "Viewers Website",
+      "status": "New",
+      "priority": "Intermediate",
+      "assignee": "Gerard Osulivelian"
+    },
+    {
+      "id": 5,
+      "ticketId": "TS1250",
+      "subject": "Not able to load PDF",
+      "description": "Join us for the upcoming webinar, Enterprise JavaScript done right: the tools you love, the security you need.",
+      "application": "TMS",
+      "status": "Closed",
+      "priority": "Major",
+      "assignee": "Gerard Osulivelian"
+    },
+    {
+      "id": 6,
+      "ticketId": "TS1251",
+      "subject": "Failed Web service",
+      "description": "Join us for the upcoming webinar, Enterprise JavaScript done right: the tools you love, the security you need.",
+      "application": "TMS",
+      "status": "New",
+      "priority": "Major",
+      "assignee": "Brad Polloc"
+    },
+    {
+      "id": 7,
+      "ticketId": "TS1252",
+      "subject": "Image not loading",
+      "description": "Join us for the upcoming webinar, Enterprise JavaScript done right: the tools you love, the security you need.",
+      "application": "Dynamite Website",
+      "status": "New",
+      "priority": "Minor",
+      "assignee": "John Mike"
+    },
+    {
+      "id": 8,
+      "ticketId": "TS1253",
+      "subject": "Error in service",
+      "description": "Join us for the upcoming webinar, Enterprise JavaScript done right: the tools you love, the security you need.",
+      "application": "Dynamo App",
+      "status": "New",
+      "priority": "Minor",
+      "assignee": "John Mike"
+    },
+    {
+      "id": 9,
+      "ticketId": "TS1255",
+      "subject": "UI unresponsive",
+      "description": "Join us for the upcoming webinar, Enterprise JavaScript done right: the tools you love, the security you need.",
+      "application": "Dynamo App",
+      "status": "New",
+      "priority": "Minor",
+      "assignee": "Steave Smith"
+    },
+    {
+      "id": 10,
+      "ticketId": "TS1255",
+      "subject": "Asset not loading",
+      "description": "Join us for the upcoming webinar, Enterprise JavaScript done right: the tools you love, the security you need.",
+      "application": "TMS",
+      "status": "New",
+      "priority": "Minor",
+      "assignee": "Steave Smith"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "Leaf Rake",
+      "productCode": "GDN-0011",
+      "description": "Leaf rake with 48-inch wooden handle",
+      "price": 19.95,
+      "categoryId": 1,
+      "quantityInStock": 15,
+      "supplierIds": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "productName": "Garden Cart",
+      "productCode": "GDN-0023",
+      "description": "15 gallon capacity rolling garden cart",
+      "price": 32.99,
+      "categoryId": 1,
+      "quantityInStock": 2,
+      "supplierIds": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": 5,
+      "productName": "Hammer",
+      "productCode": "TBX-0048",
+      "description": "Curved claw steel hammer",
+      "price": 8.9,
+      "categoryId": 3,
+      "quantityInStock": 8,
+      "supplierIds": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": 8,
+      "productName": "Saw",
+      "productCode": "TBX-0022",
+      "description": "15-inch steel blade hand saw",
+      "price": 11.55,
+      "categoryId": 3,
+      "quantityInStock": 6,
+      "supplierIds": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": 10,
+      "productName": "Video Game Controller",
+      "productCode": "GMG-0042",
+      "description": "Standard two-button video game controller",
+      "price": 35.95,
+      "categoryId": 5,
+      "quantityInStock": 12,
+      "supplierIds": [
+        9,
+        10
+      ]
+    }
+  ]
 }
